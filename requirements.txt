@@ -1,5 +1,8 @@
 Django==2.0
 gunicorn==19.7.1
 
+# Below celery is the result of celery[redis]
+celery==4.1.0
+
 # Development
-#ipython
+ipython
