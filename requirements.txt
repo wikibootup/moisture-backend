@@ -1,12 +1,11 @@
 Django==2.0
-gunicorn==19.7.1
+gunicorn==19.7
 djangorestframework==3.7.7
 
 # Dep : postgresql
-psycopg2==2.7.3.2
+psycopg2==2.7
 
-# Below celery is the result of celery[redis]
-celery==4.1.0
+celery
 
 # Development
 ipython
